@@ -1,0 +1,60 @@
+:root {
+  --vcl-cyan: #0DCAF0;
+  --vcl-black: #000000;
+}
+
+.raleway-light {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbar-container{
+  width: 90%;
+}
+
+#about, #featured, #contact {
+  background-color: var(--vcl-black);
+}
+
+.custom-border {
+  border-color: #1A191E !important;
+  opacity: 0.7;
+}
+
+.row-icon {
+  background-color: var(--vcl-cyan);
+  color: white
+}
+
+.custom-card {
+  background-color: var(--vcl-cyan);
+  border-color: white;
+}
+
+.card-img-top {
+  height: 9rem;
+}
+
+.btn-vcl{
+  background-color: var(--vcl-cyan);
+}
+
+footer {
+  background-color: var(--vcl-cyan);
+}
